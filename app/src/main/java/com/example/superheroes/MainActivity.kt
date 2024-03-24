@@ -64,7 +64,8 @@ fun HeroTopAppBar(modifier: Modifier = Modifier){
                     style = MaterialTheme.typography.displayLarge
                 )
             }
-        }
+        },
+        modifier = modifier
     )
 }
 
